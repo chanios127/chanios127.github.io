@@ -1,0 +1,104 @@
+@font-face {
+    font-family: '현우진체';
+    src: url(../font/Woojin_Hyun.otf);
+}
+
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: hotpink;
+}
+
+
+.flex-content {
+    height: 100px;
+    width: 400px;
+    background-color: hotpink;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+}
+
+.main-title {
+    margin-left: 20%;
+    width: 60%;
+    font-size: 50px;
+    color: #eee;
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main-content {
+    clear: both;
+    margin-left: 25%;
+    margin-top: 0px;
+    font-size: 35px;
+    color: #eee;
+    float: left;
+    text-align: center;
+}
+
+.main-button {
+
+    padding: 15px;
+    font-size: 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+}
+
+.float-box {
+    width: 80%;
+    max-width: 600px;
+    height: 100px;
+    background-color: #eee;
+    position: relative;
+    left: 20%;
+    bottom: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-title {
+    margin: 0;
+
+}
+
+.box-content {
+    margin: 0;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px){
+    .main-title{
+    font-size: 30px; 
+    }
+} /* media query 문법 */

@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+.container {
+    width: 1000px; 
+    height: 800px;
+    background-color:#eee;
+}
+
+body {
+margin: 0px;    
+}
+
+table {
+    width: auto ;
+
+    border-radius: 7px;
+    border-collapse: collapse; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    width: 80%;
+    height: 260px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+
+.tst {
+    vertical-align: middle;
+}
+
+.edit {
+    position: relative;
+    top: 40px;
+}
+
+.header {
+    border-bottom: 1px solid black; 
+}
+
+.content {
+    border-bottom: 1px solid black;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+
+
+.itm {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+
+
+
+th {
+    width: 100px;
+}
+
+.AMT {
+    text-align: right;
+}
+
+.price {
+        text-align: right;
+}
+
+.total {
+        text-align: right;
+}
+
+.conclusion {
+    text-align: right;
+}
+
+.table2 {
+    width: 800px;
+    height: 600px;
+
+    position: absolute;
+    top: 100px; 
+    left: 100px;
+}
+
+button {
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 70px;
+    background-color: dodgerblue;
+    color: white;
+    top: 20px;
+    border-radius: 6px;
+
+}
+
+.buy-btn:hover{
+background-color: chocolate;
+}
+.buy-btn:focus{
+    background-color: brown;
+    }
+    
+.buy-btn:active {
+    background-color: grey;
+}
+
+
+
+.chose {
+    width: 640px;
+
+    height: 103px;
+
+}
+

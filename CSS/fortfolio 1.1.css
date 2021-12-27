@@ -1,0 +1,322 @@
+/* 기초 토대  */
+body {
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.small-text {
+    font-size: 0.95rem;
+}
+
+.small-title {
+    font-size: 1.5rem;
+
+}
+
+.large-title {
+    font-size: 1.75rem;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+
+
+.btn {
+    color: white;
+    background-color: rgb(54, 52, 54);
+    height: 40px;
+    border: 1px solid rgb(54, 52, 54);
+    border-radius: 5px;
+    padding: 10px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: violet;
+}
+
+/* 기초 토대  */
+
+
+/* 첫 번쨰 페이지 설계 ------------------------------------------------------------------------------------------- */
+.fst-bg {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom, rgb(0, 110, 255), rgb(132, 98, 253));
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    overflow: hidden;
+    padding: 1px;
+}
+
+
+.fst-box {
+    width: 300px;
+    height: 200px;
+    margin: 30px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+.fst-text {
+    width: 100%;
+    height: 40%;
+    /* padding: 0px 0px 100px 30px; */
+}
+
+
+.empty-box {
+    width: 100%;
+    height: 40%;
+}
+
+.img-box {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    overflow: hidden;
+
+}
+
+.fst-img {
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 375px; /*200px 원래 높이 */
+    transition: all 1s;
+}
+
+.img-box:hover >.fst-img {
+    margin-top: 200px;
+
+}
+/* 아이폰에 애니메이션을 넣는다면 어떻게 될까..  */
+/* 첫 번쨰 페이지 설계 ------------------------------------------------------------------------------------------- */
+
+
+/* 중간 부수 요소 ------------------------------------------------------------------------------------------- */
+
+.sub-txt {
+    text-align: center;
+
+}
+
+/* 간단하게 정렬했지만 조잡한 느낌이 없지 않음  뎌 좋은 방법이 있을시 추가 바람.  */
+
+/* 중간 부수 요소 ------------------------------------------------------------------------------------------- */
+
+/* 두번째 페이지 설계 ------------------------------------------------------------------------------------------- */
+
+.snd-bg {
+    width: 100%;
+    height: 500px;
+    /* 모바일 전용 배경 높이가 필요해 보임....----------------------------------*/
+    background-color: rgb(93, 115, 240);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+}
+
+.snd-txt {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* 아이콘 관련 설계 */
+
+.icn-frame {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.icns {
+
+    font-size: 60px;
+    color: rgb(93, 115, 240);
+    background-color: seashell;
+    border-radius: 70%;
+    text-align: center;
+    padding: auto;
+    margin: 30px;
+}
+
+.ico-bg {
+    width: 80px;
+    height: 80px;
+    line-height: 85px;
+    background-color: seashell;
+    border-radius: 70%;
+    text-align: center;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.icn-txt {
+    width: 200px;
+}
+
+/* 아이콘 관련 설계 */
+
+
+
+
+/* 두번째 페이지 설계 ------------------------------------------------------------------------------------------- */
+
+/* 세번쨰 페이지 설계 ------------------------------------------------------------------------------------------- */
+.trd-bg {
+    margin: auto;
+    width: 90%;
+    height: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+}
+
+.cnt-box {
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    transition: all 1s;
+    border-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cnt-box:hover {
+    border: 50px solid white;
+}
+
+/* 테두리 애니메이션 효과 잠시 꺼둠 */
+
+.type-a {
+    background-image: url(../img/portfolio-1.jpeg);
+}
+
+.type-b {
+    background-image: url(../img/portfolio-2.jpeg);
+}
+
+.type-c {
+    background-image: url(../img/portfolio-3.jpeg);
+}
+
+.type-d {
+    background-image: url(../img/portfolio-4.jpeg);
+}
+
+footer {
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media screen and (max-width : 992px) {
+    .fst-box {
+        margin: auto;
+    }
+
+    .img-box {
+        height: auto;
+        margin-right: auto;
+    }
+
+    .trd-bg {
+        height:2000px; /* or 200vw something */
+        max-width:none; /* or larger then ever */
+        flex-direction: column;
+        flex-wrap: nowrap;      
+    }
+
+
+    .cnt-box{
+        width:auto ; /* or 100% */
+        height: 25%;
+
+    }
+}
+
+@media screen and (max-width :800px){
+.icn-frame {
+    width: 570px;
+    margin:auto; 
+}
+
+
+
+}
+
+@media screen and (max-width : 576px) {
+    .fst-bg {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .fst-img {
+        margin-top: 0;
+    }
+    
+    .img-box:hover >.fst-img {
+        margin-top: 0;
+    }
+    
+    .snd-bg{
+        height:auto ;
+        
+    }
+
+    .icn-frame {
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100vw;
+    }
+    .trd-bg{
+        height: 1000px;
+    }
+
+
+
+}

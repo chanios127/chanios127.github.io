@@ -1,0 +1,35 @@
+.wrapper{
+    width: 800px;
+    height: 150px; 
+}
+
+.right-box{
+width: 70%;
+height: 100px;
+}
+
+.right-box img {
+float: right;
+width: 100%;
+height: 100%;
+}
+
+.left-box{
+width: 30%;
+height: 100px;
+
+}
+
+#profile img {
+border-radius: 70%;
+float: left
+}
+#profile h2 {
+font-family: 나눔고딕;
+float: right;
+
+}
+#profile p {
+    font-size: 8px;
+    clear:both;
+}

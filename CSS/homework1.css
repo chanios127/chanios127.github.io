@@ -1,0 +1,66 @@
+@font-face {
+    font-family: '현우진체' ;
+    src: url(../font/Woojin_Hyun.otf) ;
+}
+
+p,h4,h3,h2,h1,span {
+  transform: rotate(0.03deg);
+}
+
+
+.flex-container{
+    display: flex;
+}
+
+.wrapper{
+    width: 800px;
+    height: 300px; 
+}
+
+
+
+.left-box{
+width: 70%;
+height: 100px;
+float: left;
+}
+
+.profile-picture{
+    width:50px;
+    height:50px;    
+    float: left;
+}
+.profile-picture img {
+width:50px;
+height:50px;    
+border-radius: 70%;
+}
+
+.profile{
+margin:10px;    
+float: left;
+}
+.profile h4 {
+font-family: NanumGothic;
+margin:0px;
+}
+.profile p {
+    font-family: NanumGothic;
+    font-size: 8px;
+}
+.main{
+    clear:both;
+    font-family: '현우진체';
+}
+
+.right-box{
+    width: 30%;
+    height: 180px;
+    float: left;
+    }
+    
+    .right-box img {
+    float: right;
+    width: 100%;
+    height: 100%;
+    }

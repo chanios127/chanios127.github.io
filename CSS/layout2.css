@@ -1,0 +1,36 @@
+.main-background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    padding: 1px;
+}
+.main-title {
+    margin-left: 10%;
+    width: 60%;
+    font-size: 50px;
+    color:#eee;
+    float: left;
+    margin-top: 60px;
+}
+.main-title h4 {
+    margin:0px;
+}
+.main-title p {
+    margin-top:5px;
+}
+
+.start-button{
+    
+    clear:both;
+    width: 20%;
+    background: #eee;
+    text-align: center;
+    border-radius: 30%;
+    position:absolute;
+    right:15%;
+    top:10%;
+
+}
